@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    background: url(../images/retro-living-room-interior-design-1-scaled.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Inter', sans-serif;
+    background-position-x: -50px;
+    line-height: 3rem;
+}
+
+.icon {
+    height: 36px;
+    width: 36px;
+}
+
+.nav {
+    display: flex;
+    gap: 20rem;
+    align-items: center;
+    color: #fff;
+    margin: 5rem 5rem;
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.nav-items {
+    display: flex;
+    flex-direction: row;
+    border-bottom: 3px solid #fff;
+
+}
+
+.nav-items a {
+    text-decoration: none;
+    color: #fff;
+    padding: 0px 5rem 4rem 0px;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.call {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 0rem 4rem 0px;
+
+
+}
+
+.icon-text {
+    line-height: 2rem;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.header-section {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: #fff;
+    margin: 14rem 5rem 26rem 6rem;
+}
+
+.main-heading {
+    font-size: 100px;
+    font-weight: 700;
+    margin-bottom: 8rem;
+    text-transform: capitalize;
+    line-height: 8rem;
+    margin-right: 40rem;
+    margin-left: 3rem;
+
+}
+
+.btn {
+    background: none;
+    color: #fff;
+    padding: 1.6rem 4rem;
+    text-transform: uppercase;
+    font-family: Inter, serif;
+    font-size: 38px;
+    font-weight: 600;
+    border: 3px solid #fff;
+    border-radius: 50px;
+    margin-left: 1.5rem;
+}
+
+.box {
+
+    background-color: rgba(255, 255, 255, 0.172);
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    font-size: 25px;
+    line-height: 2rem;
+}
+
+.box2 {}
+
+.side-text-1 {
+    position: absolute;
+    top: -100px;
+    right: 60px;
+    max-width: 420px;
+}
+
+.header-icon {
+    margin-bottom: 1.2rem;
+}
+
+
+.side-text-2 {
+    position: absolute;
+    top: 420px;
+    right: 420px;
+    max-width: 400px;
+}
+
+.text1 {
+    position: relative;
+}
+
+.text2 {
+    position: relative;
+}
+
+.line1 {
+    position: absolute;
+    background-color: #fff;
+    width: 2px;
+    height: 7rem;
+    bottom: -113px;
+    right: 135px;
+}
+
+.circle1 {
+    position: absolute;
+    background-color: #fff;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    bottom: -124px;
+    right: 124px;
+}
+
+.line2 {
+    position: absolute;
+    background-color: #fff;
+    width: 7rem;
+    height: 2px;
+    right: -112px;
+    top: 120px;
+}
+
+.circle2 {
+    position: absolute;
+    background-color: #fff;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    right: -120px;
+    top: 109px;
+}
